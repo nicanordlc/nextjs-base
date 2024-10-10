@@ -3,6 +3,8 @@ import "./globals.css";
 import { type Metadata } from "next";
 import localFont from "next/font/local";
 
+import Footer from "@/components/Footer";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -27,9 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col justify-center gap-16 p-8 pb-20 antialiased sm:p-20`}
       >
-        {children}
+        <div className="grid grid-rows-[20px_1fr_20px] justify-items-center">
+          {children}
+        </div>
+
+        <Footer />
       </body>
     </html>
   );
