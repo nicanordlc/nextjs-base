@@ -1,0 +1,6 @@
+services:
+  nextjs-base:
+    image: nextjs-base
+    build:
+      context: .
+      dockerfile: Dockerfile
