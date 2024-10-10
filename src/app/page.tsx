@@ -13,8 +13,9 @@ export default function Home() {
           className="dark:invert"
           src="https://nextjs.org/icons/next.svg"
           alt="Next.js logo"
-          width={180}
-          height={38}
+          width={0}
+          height={0}
+          style={{ width: 180, height: 38 }}
           priority
         />
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left">
@@ -39,8 +40,9 @@ export default function Home() {
               className="dark:invert"
               src="https://nextjs.org/icons/vercel.svg"
               alt="Vercel logomark"
-              width={20}
-              height={20}
+              width={0}
+              height={0}
+              style={{ width: 20, height: 20 }}
             />
             Deploy now
           </a>
@@ -65,8 +67,9 @@ export default function Home() {
             aria-hidden
             src="https://nextjs.org/icons/file.svg"
             alt="File icon"
-            width={16}
-            height={16}
+            width={0}
+            height={0}
+            style={{ width: 16, height: 16 }}
           />
           Learn
         </a>
@@ -80,8 +83,9 @@ export default function Home() {
             aria-hidden
             src="https://nextjs.org/icons/window.svg"
             alt="Window icon"
-            width={16}
-            height={16}
+            width={0}
+            height={0}
+            style={{ width: 16, height: 16 }}
           />
           Examples
         </a>
@@ -95,8 +99,9 @@ export default function Home() {
             aria-hidden
             src="https://nextjs.org/icons/globe.svg"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width={0}
+            height={0}
+            style={{ width: 16, height: 16 }}
           />
           Go to nextjs.org →
         </a>
