@@ -29,7 +29,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col justify-center gap-16 p-8 pb-20 antialiased sm:p-20`}
+        className={`
+          ${geistSans.variable}
+          ${geistMono.variable}
+
+          flex min-h-screen flex-col justify-center gap-16 p-8 pb-20 antialiased
+
+          sm:p-20
+        `}
       >
         <div className="grid grid-rows-[20px_1fr_20px] justify-items-center">
           {children}
