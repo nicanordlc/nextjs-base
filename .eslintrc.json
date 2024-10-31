@@ -3,11 +3,13 @@
   "extends": [
     "next/core-web-vitals",
     "next/typescript",
+    "plugin:readable-tailwind/error",
     "plugin:prettier/recommended"
   ],
   "plugins": [
     "unused-imports",
     "simple-import-sort",
+    "readable-tailwind",
     "prettier"
   ],
   "rules": {
