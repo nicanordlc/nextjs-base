@@ -16,6 +16,7 @@
     "unused-imports/no-unused-imports": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "readable-tailwind/no-duplicate-classes": "error",
     "@typescript-eslint/consistent-type-imports": [
       "error",
       {
